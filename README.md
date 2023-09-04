@@ -31,6 +31,7 @@ Users should be able to:
 ![loginScreenshot](./src/Design/Screenshots/LogIn-Screenshot.png)
 ![successScreenshot](./src/Design/Screenshots/success-Screenshot.png)
 ![ValidationScreenshot](./src/Design/Screenshots/Validation-Button-Screenshot.png)
+![Screenshot-IphoneSe](./src/Design/Screenshots/Screenshot-IphoneSe-Size.png)
 
 ### Links
 
