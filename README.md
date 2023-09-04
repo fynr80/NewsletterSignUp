@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/fynr80/NewsletterSignUp)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [LivePage](https://fynr80.github.io/NewsletterSignUp/)
 
 ## My process
 
