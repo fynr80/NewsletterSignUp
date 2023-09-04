@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  background-color: hsl(235, 18%, 26%);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+p {
+  font-family: "Roboto Regular";
+}
+
+h1 {
+  font-family: "Roboto Bold";
+  font-size: 46px;
+}
+h1,
+p {
+  color: hsl(235, 18%, 26%);
+}
+
+button {
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  font-weight: bold;
+}
+
+input:hover,
+input:focus {
+  outline: none;
+  border: 1.5px solid;
+}
+
+input,
+button {
+  padding: 15px 15px 15px 20px;
+  border-radius: 8px;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+
+button:hover {
+  background-color: hsl(4, 100%, 67%);
+  background-image: linear-gradient(to right, #ff5478, hsl(4, 100%, 67%));
+  box-shadow: 5px 5px 10px hsl(4, 100%, 67%);
+}

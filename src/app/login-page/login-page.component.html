@@ -1,0 +1,53 @@
+<div class="page" style="background-color: hsl(235, 18%, 26%)">
+  <div class="center row">
+    <div class="rightside col-md-6 order-md-2">
+      <img
+        src="../assets/images/illustration-sign-up-desktop.svg"
+        class="img-fluid.max-width:100%"
+      />
+    </div>
+    <div class="leftSide col-md-6 order-md-1">
+      <div class="header">
+        <h1>Stay updated!</h1>
+        <p>
+          Join 60,000+ product managers receiving monthly <br />
+          updates on:
+        </p>
+      </div>
+      <div class="list">
+        <app-list-component
+          text="Product discovery and building what matters"
+        ></app-list-component>
+        <app-list-component
+          text="Measuring to ensure updates are a success"
+        ></app-list-component>
+        <app-list-component text="And much more!"></app-list-component>
+      </div>
+      <div class="inputArea">
+        <div style="display: flex; justify-content: space-between">
+          <p class="emailHeader">Email address</p>
+          <p
+            class="emailHeader"
+            *ngIf="validationValue"
+            style="color: hsl(4, 100%, 67%)"
+          >
+            Valid email required
+          </p>
+        </div>
+
+        <input
+          [(ngModel)]="emailInput"
+          type="email"
+          [ngClass]="{
+            inputEmailError: validationValue
+          }"
+          placeholder="email@company.com"
+        />
+        <!-- required -> input can not be empty -->
+        <button (click)="submit()" class="submitBtn">
+          Subscribe to monthly newsletter
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
